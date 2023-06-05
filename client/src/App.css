@@ -1,0 +1,526 @@
+body {
+  height: auto;
+}
+/* NUEVOS HELPERS */
+/* Alineacion Padding */
+.pa_1 {
+  padding: 1rem;
+}
+.pa_2 {
+  padding: 2rem;
+}
+.pa_3 {
+  padding: 3rem;
+}
+.pa_4 {
+  padding: 4rem;
+}
+.pa_5 {
+  padding: 5rem;
+}
+.pa_6 {
+  padding: 6rem;
+}
+.pl_1 {
+  padding-left: 1rem;
+}
+.pl_2 {
+  padding-left: 2rem;
+}
+.pl_3 {
+  padding-left: 3rem;
+}
+.pl_4 {
+  padding-left: 4rem;
+}
+.pl_5 {
+  padding-left: 5rem;
+}
+.pl_6 {
+  padding-left: 6rem;
+}
+.pt_1 {
+  padding-top: 1rem;
+}
+.pt_2 {
+  padding-top: 2rem;
+}
+.pt_3 {
+  padding-top: 3rem;
+}
+.pt_4 {
+  padding-top: 4rem;
+}
+.pt_5 {
+  padding-top: 5rem;
+}
+.pt_6 {
+  padding-top: 6rem;
+}
+.pr_1 {
+  padding-right: 1rem;
+}
+.pr_2 {
+  padding-right: 2rem;
+}
+.pr_3 {
+  padding-right: 3rem;
+}
+.pr_4 {
+  padding-right: 4rem;
+}
+.pr_5 {
+  padding-right: 5rem;
+}
+.pr_6 {
+  padding-right: 6rem;
+}
+.pb_1 {
+  padding-bottom: 1rem;
+}
+.pb_2 {
+  padding-bottom: 2rem;
+}
+.pb_3 {
+  padding-bottom: 3rem;
+}
+.pb_4 {
+  padding-bottom: 4rem;
+}
+.pb_5 {
+  padding-bottom: 5rem;
+}
+.pb_6 {
+  padding-bottom: 6rem;
+}
+/* Margen Padding */
+.ma_1 {
+  margin: 1rem;
+}
+.ma_2 {
+  margin: 2rem;
+}
+.ma_3 {
+  margin: 3rem;
+}
+.ma_4 {
+  margin: 4rem;
+}
+.ma_5 {
+  margin: 5rem;
+}
+.ma_6 {
+  margin: 6rem;
+}
+.mt_1 {
+  margin-top: 1rem;
+}
+.mt_2 {
+  margin-top: 2rem;
+}
+.mt_3 {
+  margin-top: 3rem;
+}
+.mt_4 {
+  margin-top: 4rem;
+}
+.mt_5 {
+  margin-top: 5rem;
+}
+.mt_6 {
+  margin-top: 6rem;
+}
+.ml_1 {
+  margin-left: 1rem;
+}
+.ml_2 {
+  margin-left: 2rem;
+}
+.ml_3 {
+  margin-left: 3rem;
+}
+.ml_4 {
+  margin-left: 4rem;
+}
+.ml_5 {
+  margin-left: 5rem;
+}
+.ml_6 {
+  margin-left: 6rem;
+}
+.mr_1 {
+  margin-right: 1rem;
+}
+.mr_2 {
+  margin-right: 2rem;
+}
+.mr_3 {
+  margin-right: 3rem;
+}
+.mr_4 {
+  margin-right: 4rem;
+}
+.mr_5 {
+  margin-right: 5rem;
+}
+.mr_6 {
+  margin-right: 6rem;
+}
+.mb_1 {
+  margin-bottom: 1rem;
+}
+.mb_2 {
+  margin-bottom: 2rem;
+}
+.mb_3 {
+  margin-bottom: 3rem;
+}
+.mb_4 {
+  margin-bottom: 4rem;
+}
+.mb_5 {
+  margin-bottom: 5rem;
+}
+.mb_6 {
+  margin-bottom: 6rem;
+}
+/* Tamaño de fuente */
+.fs_1 {
+  font-size: 10px;
+}
+.fs_2 {
+  font-size: 12px;
+}
+.fs_3 {
+  font-size: 14px;
+}
+.fs_4 {
+  font-size: 18px;
+}
+.fs_5 {
+  font-size: 21px;
+}
+.fs_6 {
+  font-size: 24px;
+}
+.fs_7 {
+  font-size: 28px;
+}
+.fs_8 {
+  font-size: 32px;
+}
+.fs_9 {
+  font-size: 40px;
+}
+.fs_10 {
+  font-size: 60px;
+}
+/* Tamaño de fuente */
+.fw_1 {
+  font-weight: 100;
+}
+.fw_2 {
+  font-weight: 200;
+}
+.fw_3 {
+  font-weight: 300;
+}
+.fw_4 {
+  font-weight: 400;
+}
+.fw_5 {
+  font-weight: 500;
+}
+.fw_6 {
+  font-weight: 600;
+}
+.fw_7 {
+  font-weight: 700;
+}
+.fw_8 {
+  font-weight: 800;
+}
+.fw_9 {
+  font-weight: 900;
+}
+.fw_10 {
+  font-weight: 1000;
+}
+
+/* Colores */
+.bg-primary {
+  background-color: #007bff;
+}
+.bg-secondary {
+  background-color: #6c757d;
+}
+.bg-success {
+  background-color: #28a745;
+}
+.bg-danger {
+  background-color: #dc3545;
+}
+.bg-warning {
+  background-color: #ffc107;
+}
+.bg-info {
+  background-color: #17a2b8;
+}
+.bg-light {
+  background-color: #f8f9fa;
+}
+.bg-dark {
+  background-color: #343a40;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+/* Colores de texto */
+.tc_primary {
+  color: #007bff;
+}
+.tc_secondary {
+  color: #6c757d;
+}
+.tc_success {
+  color: #28a745;
+}
+.tc_danger {
+  color: #dc3545;
+}
+.tc_warning {
+  color: #ffc107;
+}
+.tc_info {
+  color: #17a2b8;
+}
+.tc_light {
+  color: #f8f9fa;
+}
+.tc_dark {
+  color: #343a40;
+}
+.tc_white {
+  color: #fff;
+}
+.tc_black {
+  color: #000;
+}
+.h_1 {
+  height: 10%;
+}
+.h_2 {
+  height: 20%;
+}
+.h_3 {
+  height: 30%;
+}
+.h_4 {
+  height: 40%;
+}
+.h_5 {
+  height: 50%;
+}
+.h_6 {
+  height: 60%;
+}
+.w_1 {
+  width: 10%;
+} 
+.w_2 {
+  width: 205;
+}
+.w_3 {
+  width: 30%;
+}
+.w_4 {
+  width: 40%;
+}
+.w_5 {
+  width: 50%;
+}
+.w_6 {
+  width: 605;
+}
+.w_7 {
+  width: 70%;
+}
+.w_8 {
+  width: 80%;
+}
+.w_9 {
+  width: 90%;
+}
+.w_10 {
+  width: 100%;
+}
+.ta_c {
+  text-align: center;
+}
+.ta_l {
+  text-align: left;
+}
+.ta_r {
+  text-align: right;
+}
+.ta_j {
+  text-align: justify;
+}
+.ai_c {
+  align-items: center;
+}
+.flx {
+  display: flex;
+}
+.flx_1 {
+  flex: 1;
+}
+.flx_2 {
+  flex: 2;
+}
+.po_r {
+  position: relative;
+}
+.po_a {
+  position: absolute;
+}
+.po_f {
+  position: fixed;
+}
+
+.espaciado {
+  margin-top: 120px;
+}
+.espaciado2 {
+  margin-top: 10px;
+}
+.espaciado3 {
+  padding: 50px;
+}
+.espaciado3 img {
+  margin-left: 30px;
+}
+.recuadro-reg-log {
+  margin: 120px 0 0 0;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  -webkit-box-shadow: 10px 10px 60px -23px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 60px -23px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 60px -23px rgba(0,0,0,0.75);
+  align-items: center;
+}
+.alineacion {
+  padding: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.al .alineacion img {
+  padding-bottom: 10px;
+}
+.alineacion-right {
+  padding: 70px 0px 0px 0px;
+  text-align: right;
+  display: inline-block;
+}
+.recuadro {
+  width: 60%;
+  margin: 100px auto;
+  padding: 10px;
+  top: 20vh;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.recuadro-lista {
+  margin: 50px auto;
+  padding: 10px;
+  top: 10vh;
+  position: relative;
+  border-radius: 10px;
+}
+.recuadro-nc {
+  margin: 10px;
+  padding: 20px;
+  top: 10vh;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.estilo-top {
+  color: green;
+  border-top: 40px solid #008835!important;
+  padding: 30px;
+}
+h4 {
+  color: green;
+}
+.estilo-footer {
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  background-color: red;
+  padding: 30px;
+  margin: 50px 0 0 0;
+  bottom: 0;
+}
+.textos-dash {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+.Fondo {
+  height: 200vh;
+  background: #f7f7f7;
+}
+Link a {
+  text-decoration: none !important;
+}
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: blue !important;
+  color: #fff;
+  font-size: 1em;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-weight: 600;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+.cs-logout {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  font-weight: 600;
+  color: green;
+  top: -10px;
+  text-align: right;
+  display: inline-block;
+  z-index: 10;
+}
+
